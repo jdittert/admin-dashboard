@@ -2,6 +2,7 @@
     --dark-accent-color: navy;
     --header-background: white;
     --light-accent-color: lightgray;
+    --icon-color: orange;
 }
 
 body {    
@@ -75,4 +76,60 @@ button {
 
 .content {
     background-color: var(--light-accent-color);
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    gap: 15px;
+}
+.card {
+    max-width: 300px;
+    max-height: 200px;    
+    border-left-color: var(--icon-color);    
+    border-left-style: solid;
+    border-left-width: 6px;
+    display: grid;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+}
+
+.card-heading {
+    font-weight: bold;
+}
+
+.card-icons {
+    display: flex;    
+    gap: 10px;
+    justify-content: end;
+}
+
+.announcements,
+.card, .trending {
+    background-color: var(--header-background);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.announcement-heading, .content-heading {
+    font-weight: bold;
+}
+
+.announcements {
+    margin-bottom: 1rem;
+}
+
+.content-heading {
+    margin-bottom: 1rem;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: .5rem;
 }
