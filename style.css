@@ -27,7 +27,31 @@ body {
     gap: 2rem;
     padding: 1rem;
     color: white;
-}   
+}
+
+.sidebar-heading {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+
+.sidebar-link {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+
+.big-icon {
+    height: 40px;
+    width: auto;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+}
 
 /* Header Content */
 
