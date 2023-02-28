@@ -1,14 +1,15 @@
 :root {
-    --dark-accent-color: navy;
-    --header-background: white;
-    --light-accent-color: lightgray;
-    --icon-color: orange;
+    --dark-accent-color: #7e8925;
+    --header-background: #e7efcd;
+    --light-accent-color: #a09574;
+    --icon-color: #483c1f;
     --text-color: #505050;
 }
 
 body {    
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    font-family: "Noto Sans Display", Arial, Helvetica, sans-serif;
 }
 
 .container {
