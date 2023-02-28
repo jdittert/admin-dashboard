@@ -139,11 +139,11 @@ button {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 45%));
     gap: 15px;
 }
 .card {
-    height: clamp(100px, 150px, 200px);        
+    height: clamp(min-content, 150px, 200px);        
     border-left-color: var(--icon-color);    
     border-left-style: solid;
     border-left-width: 6px;
