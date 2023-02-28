@@ -58,10 +58,11 @@ body {
 .header {
     background-color: var(--header-background);
     padding: 1rem;
+    margin-bottom: 4px;
     display: grid;
     grid-template-rows: repeat(2, minmax(min-content, 1fr));
     gap: 1em;
-    
+    box-shadow: 0px 4px 4px gray;
 }
 
 .header-row {
