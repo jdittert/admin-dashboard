@@ -76,11 +76,38 @@ body {
     align-items: center;
 }
 
+.header-buttons {
+    display: flex;
+    gap: 30px;
+}
+
 .search-bar {
-    width: 300px;
+    width: clamp(45ch, 50%, 75ch);
     height: 1.1rem;
     background-color: var(--light-accent-color);
-    border-radius: 8px;
+    border-radius: 16px;
+    box-shadow: none;
+    border-style: none;
+    outline: none;
+    padding: 4px 8px;
+}
+
+.user-icon {
+    width: 50px;
+    height: auto;
+}
+
+.user-icon-main {
+    width: 75px;
+    height: auto;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.user-main {
+    font-size: 36px;
 }
 
 .greeting {
@@ -94,7 +121,8 @@ button {
     border-radius: 32px;
     border-style: none;
     padding: 8px 16px;
-    width: 100px;
+    width: 125px;
+    height: 40px;
 }
 
 /* Main Content */
