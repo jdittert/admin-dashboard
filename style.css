@@ -61,7 +61,7 @@ body {
     margin-bottom: 4px;
     display: grid;
     grid-template-rows: repeat(2, minmax(min-content, 1fr));
-    gap: 1em;
+    gap: .25rem;
     box-shadow: 0px 4px 4px gray;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .header-section {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
 }
 
