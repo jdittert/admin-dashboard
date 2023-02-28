@@ -151,7 +151,8 @@ button {
     grid-template-rows: auto 1fr auto;
 }
 
-.card-heading {
+.card-heading, .announcement-heading,
+.content-heading {
     font-weight: bold;
 }
 
@@ -174,8 +175,8 @@ button {
     box-shadow: 2px 2px 2px gray;
 }
 
-.announcement-heading, .content-heading {
-    font-weight: bold;
+.content-heading {
+    font-size: 1.5rem;
 }
 
 .announcements {
@@ -186,9 +187,18 @@ button {
     margin-bottom: 1rem;
 }
 
+.trending-text {
+    display: grid;
+    align-content: center;
+}
+
 .person {
     display: flex;
-    align-items: center;
+    align-content: center;
     gap: 10px;
     margin-bottom: .5rem;
+}
+
+.person-text {
+    color: var(--text-color);
 }
