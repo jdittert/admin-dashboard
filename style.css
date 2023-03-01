@@ -1,8 +1,8 @@
 :root {
-    --dark-accent-color: #7e8925;
-    --header-background: #e7efcd;
-    --light-accent-color: #a09574;
-    --icon-color: #483c1f;
+    --dark-accent-color: #472183;
+    --header-background: #f1f6f5;
+    --light-accent-color: #82c3ec;
+    --icon-color: #4b56d2;
     --text-color: #505050;
 }
 
@@ -27,7 +27,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     gap: 2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 3rem;
     color: white;
 }
 
